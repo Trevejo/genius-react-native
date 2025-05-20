@@ -239,11 +239,11 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     color: '#ecf0f1',
     position: 'absolute',
-    top: 60, // Adjusted for status bar
+    top: 60,
   },
   highScoreText: {
     fontSize: 24,
-    color: '#bdc3c7', // Lighter grey
+    color: '#bdc3c7',
     marginTop: 10,
   },
   highScoreTextSmall: {
@@ -260,11 +260,11 @@ const styles = StyleSheet.create({
   },
   gameBoard: {
     borderWidth: 5,
-    borderColor: '#1abc9c', // Teal border
-    borderRadius: BUTTON_SIZE + 10, // Make it round
-    overflow: 'hidden', // Clip corners for roundness
-    marginTop: 50, // Give space for score
-    backgroundColor: '#16a085', // Inner circle color
+    borderColor: '#1abc9c',
+    borderRadius: BUTTON_SIZE + 10,
+    overflow: 'hidden',
+    marginTop: 50,
+    backgroundColor: '#16a085',
     width: BUTTON_SIZE * 2 + 20,
     height: BUTTON_SIZE * 2 + 20,
     justifyContent: 'center',
@@ -279,19 +279,17 @@ const styles = StyleSheet.create({
     height: BUTTON_SIZE,
     justifyContent: 'center',
     alignItems: 'center',
-    margin: 5, // Spacing between buttons
+    margin: 5,
     borderWidth: 3,
-    borderColor: 'rgba(0,0,0,0.2)', // Subtle border for buttons
-    // borderRadius: 15, // Slightly rounded buttons
+    borderColor: 'rgba(0,0,0,0.2)',
   },
-  // Specific button styles for positioning (could be done with absolute positioning too)
   greenButton: {
     backgroundColor: COLORS.GREEN,
-    borderTopLeftRadius: BUTTON_SIZE, // Round top-left corner
+    borderTopLeftRadius: BUTTON_SIZE,
   },
   redButton: {
     backgroundColor: COLORS.RED,
-    borderTopRightRadius: BUTTON_SIZE, // Round top-right corner
+    borderTopRightRadius: BUTTON_SIZE, 
   },
   yellowButton: {
     backgroundColor: COLORS.YELLOW,
